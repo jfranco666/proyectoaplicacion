@@ -12,6 +12,10 @@
         <title>JSP Page</title>
     </head>
     <body>
+          Bienvenidos al Proyecto de Aplicación....
+    </body>
+    </html>
+
         <form name="f_datos" action="valida.jsp" method="POST">
             <table border="0" cellspacing="1" cellpadding="1" align="center">
                 <thead>

@@ -18,10 +18,14 @@
     </head>
     <body>
         <%
-            //recuperamos los valores enviados desde el formulario
-            ;
-            
-            
+          // Recuperamos los valores enviados desde el formulario
+            s_usuario = request.getParameter("f_usuario");
+            s_clave = request.getParameter("f_clave");
+            if (s_usuario.equals("flor")&&s_clave.equals("123")) {
+                 response.sendRedirect("menu.jsp");
+            }else{
+                response.sendRedirect("login.jsp");
+            }
             %>
     </body>
 </html>
